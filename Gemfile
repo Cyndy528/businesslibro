@@ -10,7 +10,14 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
+gem 'haml', '~> 4.0', '>= 4.0.7'
+#HTML Abstraction Markup Language
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+#simple form gem, forms made easy
+gem 'devise', '~> 4.1', '>= 4.1.1'
+#flexible authentication solution for Rails with Warden
 gem 'coffee-rails', '~> 4.1.0'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
